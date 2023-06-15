@@ -102,7 +102,18 @@ a.tel, a.tel:hover {
 /*#footer_nav > ul > li:nth-child(2n) {
 	margin-right:0;
 }*/
-#footer_nav > ul > li > ul {width: 100%; margin: 0; padding: 10px 0px 0 5px; display: flex; flex-wrap: wrap; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+#footer_nav > ul > li > ul {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
 #footer_nav > ul > li > ul > li {width: 100%; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 #footer_nav > ul > li.footer_navA > ul > li {width: 50%;}
 #footer_nav > ul > li > ul > li:before	{

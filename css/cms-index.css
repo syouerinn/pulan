@@ -50,7 +50,8 @@ aside ul li.current a {color: #058fd3;border-bottom: 3px solid #058fd3;}
 	text-decoration: none;
 }
 #path a:hover	{
-	text-decoration: underline;
+    text-decoration: underline;
+    text-align: left;
 }
 /**↓star.sidebar**/
 #sidebar_bg	{
@@ -401,10 +402,11 @@ word-break: break-all;/***超連結換行***/
 
 #productsList > ul > li a:hover,
 #productsList ul li:hover .title	{
-	color:#0098d7;
+    color: #0098d7;
 }
 
 #productsList > ul	{
+    text-align: center;
 
 }
 #productsList ul > li:nth-child(1), #productsList ul > li:nth-child(2), #productsList ul > li:nth-child(3), #productsList ul > li::nth-child(4), #productsList ul > li:nth-child(5)	{
@@ -424,8 +426,8 @@ word-break: break-all;/***超連結換行***/
 
 #productsList .img {padding: 15% 8%;-webkit-transition: border 0.3s;-moz-transition: border 0.3s;-o-transition: border 0.3s;background: #FFF;text-align: center;/*padding-bottom: 50px;*/}
 #productsList ul li:hover .img	{
-
-	position:relative;
+    position: relative;
+    text-align: left;
 }
 #productsList ul li:hover .img:after {
 	content:"";
